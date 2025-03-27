@@ -97,7 +97,7 @@ public extension Node {
     }
 }
 
-extension Node {
+public extension Node {
 
     func disconnectAV() {
         if let engine = avAudioNode.engine {
